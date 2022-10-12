@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <title>mokland</title>
+        <link rel="stylesheet" href="mok.css">
+        
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="navbar fixed-top navbar-dark bg-primary">
+            <div class="container-fluid">
+            <!--logo-->
+              <img src="mok logo.png">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!--nav-link-->
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#product">Product</a>
+                  <a class="nav-link" href="#footer">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <header>
+            <div class="mok">
+                <h1>Mokland Venture Nig Limited</h1>
+                <p>Beutifying your homes with high quality building material...</p>
+            </div>
+          </header>
+          <!--  product details-->
+          
+          <section class="product" id="product">
+            <h1>Product</h1>
+
+      <div class="board-row">
+              <!--Accordion of product-->                 
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+                   <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                     MDF<br>Price:#12500
+                    </button>
+                   </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>Medium-density fibreboard (MDF)</strong>is an engineered wood product made by breaking down hardwood or softwood residuals into wood fibres.
+                    </div>
+                    </div>
+                    </div>
+                   
+                   <div class="accordion-item">
+                   <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                     HDF<br>Price:#19500
+                    </button>
+                   </h2>
+                   <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                   <div class="accordion-body">
+                   <strong>HDF (High Density Fibreboard/Hardboard)</strong>  sometimes referred to as HDF wood, is like MDF in that it is a man-made composite panel product that is manufactured from compressed wood fibres. It is a stronger, harder product than MDF with a typical density of up to 900kg/m.
+                   
+                   </div>
+                   </div>
+                  </div>       
+              </div>
+        </div>
+        
+            <!--  carousel -->
+            <!--images of board-->
+          <div class="row">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="amala.jfif" class="d-block w-100" alt="..." >
+                  </div>
+                  <div class="carousel-item" data-bs-interval="1000">
+                    <img src="wine.jfif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="brown.jfif" class="d-block w-100" alt="...">
+                  </div>
+               </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+          </div>
+              <!--Plywood-->
+           <div class="plymat-row">
+                <div class="col">
+                <h2>Plywood</h2>
+                <img src="1_4 plywood.jfif">
+                </div>
+              <!--Marine board-->
+                <div class="col">
+                <h2>Marine</h2>
+                <img src="marine.jfif">
+                </div>
+          </div>
+          </section>
+          <footer id="footer">
+            <div class="text-footer">
+            <p id="loc">Location: No 5, Ayoola complex, church street, agric, ikorodu, Lagos state.</p>
+            <p id="con">Contact us via our social media handle</p>
+            
+            <a href="https://wa.me/2348107059723" class="media">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+              <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+            </svg>
+            </a>
+            <a href="https://twitter.com/qoyumsycode" class="media">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+            </a>
+          </div>
+          </footer>
+          <script>
+             
+          </script>
+    </body>
+</html>

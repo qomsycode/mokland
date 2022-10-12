@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/*nav*/
+nav img{
+    width: 50px;
+    height: 50px;
+}
+/*header*/
+header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(cust.code_tvstand.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke;
+}
+.mok p{
+    font-style: italic;
+}
+.mok h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+/*product*/
+.product{
+    text-align: center;
+    margin-top: 30px;
+}
+/*Accordion*/
+.board-row{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.board-row .accordion-item{
+    width: 100%;
+    margin-top: 20px;
+}
+.img-row{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.carousel-inner{
+    width: 80%;
+    margin: auto;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 200px;
+}
+/*ply & marine*/
+.plymat-row{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.plymat-row .col{
+    margin: auto;
+}
+/*footer*/
+footer{
+    width: 100%;
+    min-height: 200px;
+    background-image: linear-gradient(rgba(46, 61, 122, 0.7),rgba(4,9,30,0.7)), url(ward.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.text-footer{
+    text-align: center;
+    font-style: oblique;
+}
+#loc{
+    font-size: 3vmin;
+}
+#con{
+    
+}
+footer .i{
+   
+}
+.media{
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+
+@media only screen and (max-width:850px){
+    .board-row{
+        flex-direction: column;
+    }
+    .plymat-row{
+        flex-direction: column;
+    }
+}
